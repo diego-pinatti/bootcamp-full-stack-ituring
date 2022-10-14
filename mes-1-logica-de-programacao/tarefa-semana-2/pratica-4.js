@@ -3,7 +3,7 @@ function calculaDesconto(valor, desconto){
     return valorFinal.toFixed(2)
 }
 
-const valorComDesconto = calculaDesconto(1000, 95)
+const valorComDesconto = calculaDesconto(100, 10)
 
 console.log(valorComDesconto)
 

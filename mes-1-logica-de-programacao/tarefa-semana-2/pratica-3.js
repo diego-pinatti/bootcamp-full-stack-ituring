@@ -1,12 +1,6 @@
-function numeroAleatorio() {
-    const min = 1
-    const max = 10
-    const numero = Math.random()*(max - min) + 1
-    const numeroInteiro = parseInt(numero)
-
-    console.log(numero)
-
-    return numeroInteiro
+function obterAleatorio() {
+    return Math.floor(Math.random() * 10000 + 1)
 }
+let numero = obterAleatorio()
 
-console.log(numeroAleatorio())
+console.log(numero)
