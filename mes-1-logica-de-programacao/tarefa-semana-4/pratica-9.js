@@ -1,6 +1,6 @@
 const listaCrescente = (lista) => {
 
-    let listaOrdenada = lista.sort(function(a, b) {
+    lista.sort(function(a, b) {
         return b.notaAvaliacao - a.notaAvaliacao
     })
     console.log(`O filme de melhor avaliação com nota ${lista[0].notaAvaliacao} é: ${lista[0].titulo}.`)    
